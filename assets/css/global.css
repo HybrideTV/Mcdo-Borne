@@ -1,0 +1,185 @@
+body {
+    background-image: url('../../assets/images/background.jpg');
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .container {
+        background-color: rgb(240, 240, 240);
+        width: 90%;
+        height: 800px;
+        margin-left: 5%;
+        margin-top: 3%;
+        border-radius: 10px 10px 10px 10px ;
+        padding-top: 1%;
+    }
+    
+    .bar {
+        border-radius: 5px 5px 5px 5px;
+        margin-top: 4%;
+        margin-left: 2%;
+        border-color: rgb(255, 255, 255);
+        border-style: solid;
+        width: 120px;
+        height: 600px;
+        text-decoration: none;
+        color:black;
+        overflow: scroll;
+    }
+    
+    .navsmall {
+        width: 90px;
+        height: 110px;
+        background-color: white;
+        border-radius: 15px 15px 15px 15px;
+        border-width: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        font: 14px "Fira Sans", sans-serif;
+        text-decoration: none;
+        color:black;
+        text-align: center;
+    }
+    
+    .navsmall_image {
+        max-width: 85px;
+        max-height: 85px;
+    }
+
+    .toptitle {
+        width: 15%;
+        height: 50px;
+        margin-left: 15%;
+        margin-top: 10px;
+        position:absolute;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .img{
+        width: 64px;
+        height: 64px;
+    }
+
+    .fen {
+        margin-top: 100px;
+        width: 180px;
+        height: 80px;
+        background-color: white;
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+        margin-left: 55%;
+    }
+    .fen2 {
+        width: 80px;
+        height: 80px;
+        background-color: white;
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+        margin-top: 200px;
+        margin-left: -55%;
+    }
+
+    .fen3 {
+        width: 80px;
+        height: 80px;
+        background-color: white;
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+        margin-top: 400px;
+        margin-left: -840px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        background-color: rgb(240, 240, 240);
+        width: 90%;
+        height: 800px;
+        margin-left: 5%;
+        margin-top: 3%;
+        border-radius: 10px 10px 10px 10px ;
+        padding-top: 1%;
+    }
+    
+    .bar {
+        border-radius: 5px 5px 5px 5px;
+        margin-top: 4%;
+        margin-left: 2%;
+        border-color: rgb(255, 255, 255);
+        border-style: solid;
+        width: 120px;
+        height: 600px;
+        text-decoration: none;
+        color:black;
+        overflow: scroll;
+    }
+    
+    .navsmall {
+        width: 90px;
+        height: 110px;
+        background-color: white;
+        border-radius: 15px 15px 15px 15px;
+        border-width: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        font: 14px "Fira Sans", sans-serif;
+        text-decoration: none;
+        color:black;
+        text-align: center;
+    }
+    
+    .navsmall_image {
+        max-width: 85px;
+        max-height: 85px;
+    }
+
+    .toptitle {
+        width: 15%;
+        height: 50px;
+        margin-left: 15%;
+        margin-top: 10px;
+        position:absolute;
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .img{
+        width: 128px;
+        height: 128px;
+    }
+
+    .fen {
+        width: 160px;
+        height: 160px;
+        background-color: white;
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+    }
+    .fen2 {
+        width: 160px;
+        height: 160px;
+        background-color: white;
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+        margin-top: 200px;
+        margin-left: -420px;
+    }
+
+    .fen3 {
+        width: 160px;
+        height: 160px;
+        background-color: white;
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+        margin-top: 400px;
+        margin-left: -840px;
+    }
+   
+}
